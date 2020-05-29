@@ -1,0 +1,59 @@
+*{border:solid}
+.body1{
+    text-align: center;
+    background-color: #0000ff;
+}
+.body2{
+    text-align: center;
+}
+.body3{
+    text-align: center;
+}
+.body4{
+    text-align: center;
+}
+.body5{
+    text-align: center;
+}
+.body6{
+    text-align: center;
+}
+.body7{
+    text-align: center;
+}
+.body8{
+    text-align: center;
+}
+.body9{
+    text-align: center;
+}
+
+.menu{
+    background-color:#ffff00;
+}
+
+
+body{
+    background-color:#adff2f;
+}
+
+.img{
+    display : flex ;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+}
+.imgs{
+    display : flex ;
+    justify-content: end;
+}
+
+.img p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+    background-color:#ff0000;
+}
+.img:hover p{opacity:1;}
